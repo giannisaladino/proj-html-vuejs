@@ -1,7 +1,9 @@
 <template>
-  <Header />
-  <Main />
-  <Footer />
+  <body>
+    <Header />
+    <Main />
+    <Footer />
+  </body>
 </template>
 
 <script>
@@ -20,4 +22,9 @@ export default {
 
 <style lang="scss">
 @use "./style/general.scss";
+@use "bootstrap";
+
+body {
+  background-color: #F8F8F8;
+}
 </style>
