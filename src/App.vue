@@ -25,6 +25,10 @@ export default {
 @use "bootstrap";
 
 body {
-  background-color: #F8F8F8;
+  background-color: #F6F6F6;
+}
+
+ul {
+  list-style: none;
 }
 </style>
