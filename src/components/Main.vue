@@ -454,6 +454,13 @@ export default {
 .maxcoach-section {
     margin-top: 100px;
 
+    img {
+        background-image: url(/public/svg/underlay-shape-lilla.svg);
+        background-repeat: no-repeat;
+        background-size: 350px;
+        background-position: left;
+    }
+
     .container {
         width: 1100px;
     }
@@ -572,17 +579,17 @@ export default {
     }
 }
 
-.green-button {
-    padding: 15px 45px;
-    border: none;
-    border-radius: 5px;
-    background-color: #21AD96;
-    color: white;
-    font-weight: 700;
-    font-size: 15px;
-}
+
 
 .big-section {
+
+    img {
+        background-image: url(/public/svg/underlay-shape-lilla.svg);
+        background-repeat: no-repeat;
+        background-size: 400px;
+        background-position: left;
+    }
+
     padding-top: 150px;
     background-color: #FFFFFF;
 
