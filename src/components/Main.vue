@@ -54,6 +54,7 @@
                     <div class="card">
                         <div class="card-header">
                             Multiple Platforms Supported for Teaching & Studying
+                            <font-awesome-icon :icon="['fas', 'circle-minus']" size="lg" /> 
                         </div>
                         <div class="card-body">
                             <p class="card-text">MaxCoach supports the act of teaching and learning
@@ -67,12 +68,14 @@
                     <div class="card mini-card">
                         <div class="card-header">
                             Multiple Course Participation at the Same Time
+                            <font-awesome-icon :icon="['fas', 'circle-plus']" size="lg" />
                         </div>
                     </div>
 
                     <div class="card mini-card">
                         <div class="card-header">
                             Track Study Progress & Deliver Prompt Feedback
+                            <font-awesome-icon :icon="['fas', 'circle-plus']" size="lg"/>
                         </div>
                     </div>
                 </div>
@@ -121,8 +124,8 @@
                             <h5 class="card-title">Learning to Write as a Professional Author</h5>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">20 Lessons</a>
-                            <a href="#" class="card-link">50 Students</a>
+                            <a href="#" class="card-link"><font-awesome-icon :icon="['far', 'file-lines']" /> 20 Lessons</a>
+                            <a href="#" class="card-link"><font-awesome-icon :icon="['far', 'user']" /> 50 Students</a>
                         </div>
                         <span class="badge">$40.00</span>
                     </div>
@@ -138,8 +141,8 @@
                             <h5 class="card-title">Learning to Write as a Professional Author</h5>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">20 Lessons</a>
-                            <a href="#" class="card-link">50 Students</a>
+                            <a href="#" class="card-link"><font-awesome-icon :icon="['far', 'file-lines']" /> 20 Lessons</a>
+                            <a href="#" class="card-link"><font-awesome-icon :icon="['far', 'user']" /> 50 Students</a>
                         </div>
                         <span class="badge">Free</span>
                     </div>
@@ -155,8 +158,8 @@
                             <h5 class="card-title">Learning to Write as a Professional Author</h5>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">20 Lessons</a>
-                            <a href="#" class="card-link">50 Students</a>
+                            <a href="#" class="card-link"><font-awesome-icon :icon="['far', 'file-lines']" /> 20 Lessons</a>
+                            <a href="#" class="card-link"><font-awesome-icon :icon="['far', 'user']" /> 50 Students</a>
                         </div>
                         <span class="badge">$19.00</span>
                     </div>
@@ -172,8 +175,8 @@
                             <h5 class="card-title">Learning to Write as a Professional Author</h5>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">20 Lessons</a>
-                            <a href="#" class="card-link">50 Students</a>
+                            <a href="#" class="card-link"> <font-awesome-icon :icon="['far', 'file-lines']" /> 20 Lessons</a>
+                            <a href="#" class="card-link"><font-awesome-icon :icon="['far', 'user']" /> 50 Students</a>
                         </div>
                         <span class="badge">$26.00</span>
                     </div>
@@ -189,8 +192,8 @@
                             <h5 class="card-title">Learning to Write as a Professional Author</h5>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">20 Lessons</a>
-                            <a href="#" class="card-link">50 Students</a>
+                            <a href="#" class="card-link"><font-awesome-icon :icon="['far', 'file-lines']" /> 20 Lessons</a>
+                            <a href="#" class="card-link"><font-awesome-icon :icon="['far', 'user']" /> 50 Students</a>
                         </div>
                         <span class="badge">$39.00</span>
                     </div>
@@ -206,8 +209,8 @@
                             <h5 class="card-title">Learning to Write as a Professional Author</h5>
                         </div>
                         <div class="card-body">
-                            <a href="#" class="card-link">20 Lessons</a>
-                            <a href="#" class="card-link">50 Students</a>
+                            <a href="#" class="card-link"><font-awesome-icon :icon="['far', 'file-lines']" /> 20 Lessons</a>
+                            <a href="#" class="card-link"><font-awesome-icon :icon="['far', 'user']" /> 50 Students</a>
                         </div>
                         <span class="badge">$59.00</span>
                     </div>
@@ -229,10 +232,12 @@
                         <h1 class="mb-4">
                             Learn At Your <br> Own <span>Pace</span>
                         </h1>
-                        <p>Select & customize courses to your preferences</p>
-                        <p>Change the tutor and make arrangements</p>
-                        <p>Participate in events to join others</p>
-                        <p>Get the desired certificate delivered at house</p>
+                        <ul>
+                            <li><font-awesome-icon :icon="['fas', 'check']" /> Select & customize courses to your preferences</li>
+                            <li><font-awesome-icon :icon="['fas', 'check']" /> Change the tutor and make arrangements</li>
+                            <li><font-awesome-icon :icon="['fas', 'check']" /> Participate in events to join others</li>
+                            <li><font-awesome-icon :icon="['fas', 'check']" /> Get the desired certificate delivered at house</li>
+                        </ul>
                         <button class="green-button mt-4">Get started for free</button>
                     </div>
                 </div>
@@ -276,7 +281,7 @@
                 <div class="col-6">
                     <div class="ticket">
                         <div class="location">
-                            <p>Texas, US</p>
+                            <p><font-awesome-icon :icon="['fas', 'location-dot']" /> Texas, US</p>
                             <h3>Storytelling Workshop</h3>
                         </div>
 
@@ -290,7 +295,7 @@
                 <div class="col-6">
                     <div class="ticket">
                         <div class="location">
-                            <p>New York, US</p>
+                            <p><font-awesome-icon :icon="['fas', 'location-dot']" /> New York, US</p>
                             <h3>Painting Art Contest 2020</h3>
                         </div>
 
@@ -304,7 +309,7 @@
                 <div class="col-6">
                     <div class="ticket">
                         <div class="location">
-                            <p>Hamburg, Germany</p>
+                            <p><font-awesome-icon :icon="['fas', 'location-dot']" /> Hamburg, Germany</p>
                             <h3>International Art Fair 2020</h3>
                         </div>
 
@@ -318,7 +323,7 @@
                 <div class="col-6">
                     <div class="ticket">
                         <div class="location">
-                            <p>Illinois, US</p>
+                            <p><font-awesome-icon :icon="['fas', 'location-dot']" /> Illinois, US</p>
                             <h3>Street Performance: Call for Artist</h3>
                         </div>
 
@@ -332,7 +337,7 @@
                 <div class="col-6">
                     <div class="ticket">
                         <div class="location">
-                            <p>Illinois, US</p>
+                            <p><font-awesome-icon :icon="['fas', 'location-dot']" /> Illinois, US</p>
                             <h3>Consumer Food Safety Education <br> Conference</h3>
                         </div>  
 
@@ -346,7 +351,7 @@
                 <div class="col-6">
                     <div class="ticket">
                         <div class="location">
-                            <p>Dubai</p>
+                            <p><font-awesome-icon :icon="['fas', 'location-dot']" /> Dubai</p>
                             <h3>How meditation improve your mental <br> health?</h3>
                         </div>
 
@@ -583,6 +588,10 @@ export default {
 
 .big-section {
 
+    
+    padding-top: 150px;
+    background-color: #FFFFFF;
+    
     img {
         background-image: url(/public/svg/underlay-shape-lilla.svg);
         background-repeat: no-repeat;
@@ -590,8 +599,16 @@ export default {
         background-position: left;
     }
 
-    padding-top: 150px;
-    background-color: #FFFFFF;
+    ul{
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+        margin-bottom: 20px;
+
+        li {
+            color: #696969;
+        }
+    }
 
     .container {
         width: 1000px;

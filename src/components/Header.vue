@@ -4,10 +4,12 @@
             <div class="navbar">
                 <img src="/public/images/dark-logo.png" alt="">
                 <ul>
-                    <li>item</li>
-                    <li>item</li>
-                    <li>item</li>
-                    <li>item</li>
+                    <li>Home <font-awesome-icon :icon="['fas', 'chevron-down']" /></li>
+                    <li>Pages <font-awesome-icon :icon="['fas', 'chevron-down']" /></li>
+                    <li>Courses <font-awesome-icon :icon="['fas', 'chevron-down']" /></li>
+                    <li>Features <font-awesome-icon :icon="['fas', 'chevron-down']" /></li>
+                    <li>Blog <font-awesome-icon :icon="['fas', 'chevron-down']" /></li>
+                    <li>Shop <font-awesome-icon :icon="['fas', 'chevron-down']" /></li>
                 </ul>
                 <input type="text" placeholder="search...">
             </div>
@@ -16,7 +18,7 @@
                     <h1>Complete Your <br> Dreams in JavaS <br> Programming</h1>
                     <p>Learn any coding program in distance and for a <br> reasonable fee.
                     You don't have to struggle alone, <br> you've got our assistance and help</p>
-                    <button class="green-button">Download free E-book</button>
+                    <button class="green-button"><font-awesome-icon :icon="['fas', 'cloud-arrow-down']" /> Download free E-book</button>
                 </div>
                 <div class="image">
                     <img src="/public/images/home-5-hero-image.png" alt="">
@@ -61,7 +63,11 @@ header {
         display: flex;
         align-items: center;
         justify-content: center;
-        gap: 15px;
+        gap: 35px;
+
+        li {
+            color: #3F3A64;
+        }
     }
 
     input {
