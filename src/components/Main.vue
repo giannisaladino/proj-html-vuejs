@@ -109,7 +109,7 @@
             <h1>Latest Featured <span>Courses</span></h1>
         </div>
         <div class="container">
-            <div class="row">
+            <div class="row gy-5">
                 <div class="col-4">
                     <div class="card" style="width: 18rem;">
                         <img src="/public/images/course-02-480x298.jpg" class="card-img-top" alt="...">
@@ -265,6 +265,105 @@
             </div>
         </div>
     </section>
+
+    <section class="events-date">
+        <div class="cols-section-title">
+            <p>GET IN CONTACT NOW</p>
+            <h1>Upcoming <span>Events</span></h1>
+        </div>
+        <div class="container">
+            <div class="row gy-4">
+                <div class="col-6">
+                    <div class="ticket">
+                        <div class="location">
+                            <p>Texas, US</p>
+                            <h3>Storytelling Workshop</h3>
+                        </div>
+
+                        <div class="date">
+                            <h2>22</h2>
+                            <p>NOV</p>
+                            <button class="green-button">Get ticket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="ticket">
+                        <div class="location">
+                            <p>New York, US</p>
+                            <h3>Painting Art Contest 2020</h3>
+                        </div>
+
+                        <div class="date">
+                            <h2>10</h2>
+                            <p>OCT</p>
+                            <button class="green-button">Get ticket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="ticket">
+                        <div class="location">
+                            <p>Hamburg, Germany</p>
+                            <h3>International Art Fair 2020</h3>
+                        </div>
+
+                        <div class="date">
+                            <h2>23</h2>
+                            <p>NOV</p>
+                            <button class="green-button">Get ticket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="ticket">
+                        <div class="location">
+                            <p>Illinois, US</p>
+                            <h3>Street Performance: Call for Artist</h3>
+                        </div>
+
+                        <div class="date">
+                            <h2>15</h2>
+                            <p>DEC</p>
+                            <button class="green-button">Get ticket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="ticket">
+                        <div class="location">
+                            <p>Illinois, US</p>
+                            <h3>Consumer Food Safety Education <br> Conference</h3>
+                        </div>  
+
+                        <div class="date">
+                            <h2>22</h2>
+                            <p>JUL</p>
+                            <button class="green-button">Get ticket</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="ticket">
+                        <div class="location">
+                            <p>Dubai</p>
+                            <h3>How meditation improve your mental <br> health?</h3>
+                        </div>
+
+                        <div class="date">
+                            <h2>12</h2>
+                            <p>AUG</p>
+                            <button class="green-button">Get ticket</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="all-events">
+                <p>Excited about our event? <a href="#">View all events &rightarrow;</a></p>
+            </div>
+        </div>
+    </section>
 </template>
 
 <script>
@@ -415,8 +514,14 @@ export default {
 }
 
 .choose-section {
-    .row {
-        margin-bottom: 40px;
+
+    .container {
+        width: 1000px;
+    }
+
+    .col-4 {
+        display: flex;
+        justify-content: center;
     }
 
     .card {
@@ -485,5 +590,79 @@ export default {
         width: 1000px;
     }
 
+}
+
+.events-date {
+    padding-top: 100px;
+    background-color: #FFFFFF;
+    padding-bottom: 100px;
+
+    .container {
+        width: 1200px;
+    }
+
+    .ticket {
+        display: flex;
+        justify-content: space-between;
+        background-color: #F6F6F6;
+        border-radius: 12px;
+        padding: 25px 20px;
+
+        .location {
+
+            p {
+                color: #696969;
+                font-size: 15px;
+            }
+
+            h3 {
+                font-size: 22px;
+                line-height: 35px;
+            }
+        }
+
+        .date * {
+            margin-bottom: 0;
+        }
+
+        .date {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 2px;
+
+            h2 {
+                font-size: 50px;
+                font-weight: 300;
+                color: #21AD96;
+            }
+
+            p {
+                font-weight: 500;
+            }
+
+            .green-button {
+                padding: 10px 35px;
+            }
+        }
+    }
+
+    .all-events {
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            color: #8D89A2;
+            font-weight: 600;
+        }
+
+        a {
+            font-weight: 700;
+            color: #21AD96;
+        }
+    }
 }
 </style>
