@@ -369,6 +369,55 @@
             </div>
         </div>
     </section>
+
+    <section class="reviews">
+        <div class="container">
+            <div class="cols-section-title">
+                <p>PEOPLE ARE PRAISING MAXCOACH</p>
+                <h1>What make they <span>love us?</span></h1>
+            </div>
+
+            <div class="row">
+                <div class="col text-center">
+                    <div class="box">
+                        <img src="/public/images/testimonial-avata-02.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti nulla minus nostrum voluptatum? Voluptatibus, quo eius. Aperiam, veritatis esse.</p>
+                        <h5>MINA HOLLACE</h5>
+                        <h6>/ Freelancer</h6>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="box">
+                        <img src="/public/images/testimonial-avata-04.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti nulla minus nostrum voluptatum? Voluptatibus, quo eius. Aperiam, veritatis esse.</p>
+                        <h5>MADLEY PONDOR</h5>
+                        <h6>/ IT Specialist</h6>
+                    </div>
+                </div>
+                <div class="col text-center">
+                    <div class="box">
+                        <img src="/public/images/testimonial-avata-01.jpg" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad deleniti nulla minus nostrum voluptatum? Voluptatibus, quo eius. Aperiam, veritatis esse.</p>
+                        <h5>LUVIC DUBBLE</h5>
+                        <h6>/ Private Tutor</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="dots">
+                <ul>
+                    <li class="big-dot"><font-awesome-icon :icon="['fas', 'circle']" /></li>
+                    <li><font-awesome-icon :icon="['fas', 'circle']" /></li>
+                    <li><font-awesome-icon :icon="['fas', 'circle']" /></li>
+                    <li><font-awesome-icon :icon="['fas', 'circle']" /></li>
+                </ul>
+            </div>
+            <div class="cols-section-title">
+                <h1 class="fs-3">Start today for getting <span class="fs-3">Online Certification</span></h1>
+                <h1>You can be your own guiding star with our help!</h1>
+                <button class="green-button mt-4 px-5">Get Started now</button>
+            </div>
+        </div>
+    </section>
 </template>
 
 <script>
@@ -687,6 +736,69 @@ export default {
             font-weight: 700;
             color: #21AD96;
         }
+    }
+}
+
+.reviews {
+    padding: 50px 0;
+
+    .container {
+        width: 1200px;
+    }
+    
+    .box {
+        margin-top: 60px;
+        background-color: white;
+        border-radius: 7px;
+        padding: 25px;
+
+        img {
+            border-radius: 50%;
+            width: 150px;
+            margin-top: -100px;
+        }
+
+        p {
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 30px;
+            color: #3F3A64;
+            margin: 30px 0;
+        }
+
+        h5 {
+            font-weight: 700;
+            font-size: 17px;
+            margin-bottom: 15px;
+        }
+
+        h6 {
+            color: #818080;
+            font-size: 14px;
+        }
+    }
+
+    .dots {
+        
+        ul {
+            margin-top: 30px;
+            margin-bottom: 80px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+
+            .big-dot {
+                color: #3F3A64;
+                font-size: 15px;
+            }
+
+            li {
+                color: #8D89A2;
+                font-size: 10px;
+            }
+        }
+        
     }
 }
 </style>

@@ -10,6 +10,8 @@
                     <li>Features <font-awesome-icon :icon="['fas', 'chevron-down']" /></li>
                     <li>Blog <font-awesome-icon :icon="['fas', 'chevron-down']" /></li>
                     <li>Shop <font-awesome-icon :icon="['fas', 'chevron-down']" /></li>
+                    <li><font-awesome-icon class="fs-5" :icon="['fas', 'cart-shopping']" /></li>
+                    <li><font-awesome-icon class="fs-5" :icon="['far', 'circle-user']" /></li>
                 </ul>
                 <input type="text" placeholder="search...">
             </div>
@@ -46,7 +48,7 @@ header {
 
     
     .container {
-        width: 1100px;
+        width: 1250px;
     }
     
 }
