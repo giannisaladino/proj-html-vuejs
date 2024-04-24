@@ -417,6 +417,8 @@
                 <button class="green-button mt-4 px-5">Get Started now</button>
             </div>
         </div>
+        <img class="shape-1" src="/public/images/maxcoach-shape-01.png" alt="">
+        <img class="shape-2" src="/public/images/maxcoach-shape-02.png" alt="">
     </section>
 </template>
 
@@ -530,6 +532,9 @@ export default {
             font-size: 17px;
             font-weight: 600;
             border: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
         }
 
         .card-body {
@@ -596,7 +601,8 @@ export default {
             a {
                 text-decoration: none;
                 color: #696969;
-                font-size: 15px;
+                font-size: 12px;
+                font-weight: 400;
             }
         }
 
@@ -740,6 +746,7 @@ export default {
 }
 
 .reviews {
+    position: relative;
     padding: 50px 0;
 
     .container {
@@ -799,6 +806,18 @@ export default {
             }
         }
         
+    }
+
+    .shape-1 {
+        position: absolute;
+        bottom: 160px;
+        left: 150px;
+    }
+
+    .shape-2 {
+        position: absolute;
+        bottom: 100px;
+        right: 190px;
     }
 }
 </style>

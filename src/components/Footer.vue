@@ -56,6 +56,8 @@
                 </div>
             </div>
         </div>
+
+        <font-awesome-icon class="back-up-arrow" :icon="['fas', 'arrow-up']" />
     </footer>
 </template>
 
@@ -72,6 +74,7 @@ footer {
     background-color: #FFFFFF;
     padding-top: 35px;
     padding-bottom: 10px;
+    position: relative;
 
     .container {
         width: 1200px;
@@ -110,6 +113,17 @@ footer {
         margin-top: 50px;
         font-size: 13px;
         font-weight: 500;
+    }
+
+    .back-up-arrow {
+        position: absolute;
+        color: white;
+        background-color: #21AD96 ;
+        border-radius: 50%;
+        padding: 20px;
+        font-size: 25px;
+        bottom: 25px;
+        right: 25px;
     }
 }
 </style>

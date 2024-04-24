@@ -27,6 +27,15 @@
                 </div>
             </div>
         </div>
+
+        <div class="absolute-list">
+            <ul>
+                <li><font-awesome-icon :icon="['fas', 'ruler-combined']" /></li>
+                <li><font-awesome-icon :icon="['far', 'circle-dot']" /></li>
+                <li><font-awesome-icon :icon="['fas', 'book']" /></li>
+                <li><font-awesome-icon :icon="['fas', 'cart-shopping']" /></li>
+            </ul>
+        </div>
     </header>
 </template>
 
@@ -41,6 +50,7 @@
 <style lang="scss" scoped>
 
 header {
+    position: relative;
     padding-bottom: 60px;
     margin-bottom: 80px;
     background-color: #EAE6E3;
@@ -112,5 +122,21 @@ header {
         }
     }
 
+}
+
+.absolute-list {
+    position: absolute;
+    bottom: 400px;
+    right: 0;
+    background-color: white;
+    padding: 8px;
+    border-radius: 3px;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+    }
 }
 </style>
